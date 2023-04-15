@@ -17,8 +17,8 @@ Additional tips
 -------------------
 Codecademy's instructions include a couple of typos:
 
-* In step 5, it should say, "Export the `Header` component after its function definition so that it can be imported and used in Cards.js".
+* In step 5, it should say, "Export the `Header` component after its function definition so that it can be imported and used in Cards.js".<br>
 &nbsp;&nbsp;&nbsp; <img src="typo-step5.png" width="30%">
 
-* In step 10, it should say, "Give the `Body` instance an attribute named `comment` and the value of `props.commentObject.comment`".
+* In step 10, it should say, "Give the `Body` instance an attribute named `comment` and the value of `props.commentObject.comment`".<br>
 &nbsp;&nbsp;&nbsp; <img src="typo-step10.png" width="30%">
