@@ -1,6 +1,6 @@
 import React from 'react';
 
-export function Body (props) {
+function Body (props) {
 
     const commentsArray = []
     props.comments.forEach(comment => commentsArray.push(<p key={comment.comment}>{comment.comment}</p>))
@@ -11,3 +11,5 @@ export function Body (props) {
         </>
     )
 }
+
+export { Body }
