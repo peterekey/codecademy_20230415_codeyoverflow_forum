@@ -5,7 +5,7 @@ Project description
 -------------------
 A simple project that lets you practise using props, and defining, rendering, and referencing components.
 
-![Screenshot of how React app looks](endresult.png)
+<p align="center"><img src="endresult.png"></p>
 
 How to use this project
 -------------------
