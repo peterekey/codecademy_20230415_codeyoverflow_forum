@@ -10,7 +10,7 @@ export function Card(props) {
                 profileImg={props.commentObject.profileImg}
                 username={props.commentObject.username}
             />
-            <Body />
+            <Body comment={props.commentObject.comment} />
         </div>
     )
 }
