@@ -1,14 +1,15 @@
 import React from 'react';
 import {comments} from './commentData'
-import { Body } from './Body'
-import { Header } from './Header'
+import { Card } from './Card'
 
 function App() {
 
+  comments.map(comment => {
+    <Card commentObject={comment}/>
+  })  
+
   return (
     <>
-      <Header comments={comments} />
-      <Body comments={comments} />
     </>
   )
 }
