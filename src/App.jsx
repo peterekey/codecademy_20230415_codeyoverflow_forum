@@ -4,12 +4,15 @@ import { Card } from './Card'
 
 function App() {
 
+  const cards = []
+  
   comments.map(comment => {
-    <Card commentObject={comment}/>
+    cards.push(<Card commentObject={comment}/>)
   })  
 
   return (
     <>
+      {cards}
     </>
   )
 }

@@ -1,18 +1,13 @@
 import React from 'react';
 
 function Header (props) {
-    const headers = []
-    props.comments.forEach(comment => {
-        headers.push(
-            <>
-                <img src={comment.profileImg}/>
-                <h1>{comment.username}</h1>
-                <br/>
-            </>
-        )
-    })
 
-    return <>{headers}</>
+    return (
+        <div>
+            <img src={props.profileImg}/>
+            <h1>{props.username}</h1>
+        </div>
+    )
 }
 
 export { Header }

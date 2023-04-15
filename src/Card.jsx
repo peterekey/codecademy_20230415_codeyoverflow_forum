@@ -5,7 +5,6 @@ import { Body } from './Body'
 function Card(props) {
     return (
         <div>
-            Hello
             <Header 
                 profileImg={props.commentObject.profileImg}
                 username={props.commentObject.username}
