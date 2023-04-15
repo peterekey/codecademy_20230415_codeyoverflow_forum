@@ -2,7 +2,7 @@ import React from 'react'
 import { Header } from './Header'
 import { Body } from './Body'
 
-export function Card(props) {
+function Card(props) {
     return (
         <div>
             Hello
@@ -14,3 +14,5 @@ export function Card(props) {
         </div>
     )
 }
+
+export { Card }
