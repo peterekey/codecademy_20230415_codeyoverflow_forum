@@ -2,10 +2,11 @@ import React from 'react'
 import { Header } from './Header'
 import { Body } from './Body'
 
-function Card(props) {
+export function Card(props) {
     return (
         <div>
-            <Header />
+            Hello
+            <Header profileImg={props.commentObject.profileImg}/>
             <Body />
         </div>
     )
